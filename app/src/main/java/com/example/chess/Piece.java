@@ -1,5 +1,7 @@
 package com.example.chess;
 
+// Parent Class
+
 public class Piece {
     private int i;
     private int j;
