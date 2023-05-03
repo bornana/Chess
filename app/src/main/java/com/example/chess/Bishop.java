@@ -1,6 +1,6 @@
 package com.example.chess;
 
-
+// This is a Bishop 
 public class Bishop extends Piece {
     public Bishop(int i, int j){
         super(i,j);
@@ -18,6 +18,7 @@ public class Bishop extends Piece {
         }
     }
 
+    // This checks if it can move
     public boolean CanMove(Piece piece, Piece[][] board){
         //IsPinned
         boolean ibool = false;
